@@ -1,6 +1,6 @@
 /* Header Styles */
 .header {
-  background-color: #03045e; /* Dark background for header */
+  background: linear-gradient(135deg, #03045e, #0B2F9F, #161D6F, #161D6F);
   color: #fff; /* White text for contrast */
   padding: 20px; /* Spacing around the header */
   display: flex; /* Flexbox for layout */
@@ -13,6 +13,7 @@
 .header h1 {
   margin: 0; /* Remove default margin */
   font-size: 24px; /* Set font size */
+  font-family: 'SUSE',sans-serif;
 }
 
 .navbar {
@@ -26,10 +27,11 @@
   font-size: 16px; /* Font size for links */
   padding: 10px 15px; /* Padding for clickable area */
   transition: background-color 0.3s ease; /* Smooth hover effect */
+  font-family: 'SUSE',sans-serif;
 }
 
 .navbar a:hover {
-  background-color: #555; /* Change background on hover */
+  background-color: #03045e; /* Change background on hover */
   border-radius: 5px; /* Slight rounding of hover background */
 }
 

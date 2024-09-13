@@ -18,7 +18,7 @@ html, body {
   }
   
   footer {
-    background-color: #03045e;
+    background: linear-gradient(135deg, #03045e, #0B2F9F, #161D6F, #161D6F);
     color: white;
     text-align: center;
     height: 200px;
@@ -33,6 +33,7 @@ html, body {
   footer p {
     margin: 0;
     color: white;
+    font-family: 'SUSE',sans-serif;
   }
   
 
@@ -59,6 +60,7 @@ html, body {
     margin-bottom: 15px;
     color: #333;
     font-weight: bold;
+    font-family: 'SUSE',sans-serif;
   }
 
 .footer-nav{
@@ -75,6 +77,7 @@ html, body {
   color: #ffffff;
   text-decoration: none;
   font-size: 1rem;
+  font-family: 'SUSE',sans-serif;
 }
 
 .footer-nav a:hover {
