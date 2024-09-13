@@ -1,0 +1,82 @@
+/* Footer.css */
+/* index.css or your main CSS file */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    flex: 1; /* This makes the main content area grow and push the footer to the bottom */
+  }
+  
+  footer {
+    background-color: #03045e;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 15px 0;
+    width: 100%;
+    position: relative; /* Position relative to normal flow of the document */
+    bottom: -320px;
+    box-shadow: #0077b6;
+    margin-top: -200px;
+  }
+  
+  footer p {
+    margin: 0;
+    color: white;
+  }
+  
+
+.social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    color: #ddd;
+  }
+
+
+  .price-details h3 {
+    margin-top: 50px;
+    font-size: 30pxrem;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+  }
+
+.footer-nav{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-nav {
+  margin: 15px 0;
+}
+
+.footer-nav a {
+  margin: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}

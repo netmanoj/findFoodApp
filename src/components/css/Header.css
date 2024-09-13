@@ -1,0 +1,58 @@
+/* Header Styles */
+.header {
+  background-color: #03045e; /* Dark background for header */
+  color: #fff; /* White text for contrast */
+  padding: 20px; /* Spacing around the header */
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Spread out header contents */
+  align-items: center; /* Vertically center items */
+  box-shadow: #0077b6; /* Add shadow for depth */
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+}
+
+.header h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 24px; /* Set font size */
+}
+
+.navbar {
+  display: flex; /* Flexbox for navigation links */
+  gap: 20px; /* Add space between links */
+}
+
+.navbar a {
+  color: #fff; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size for links */
+  padding: 10px 15px; /* Padding for clickable area */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar a:hover {
+  background-color: #555; /* Change background on hover */
+  border-radius: 5px; /* Slight rounding of hover background */
+}
+
+.cart-count {
+  background-color: #e74c3c; /* Red background for cart count */
+  color: #fff; /* White text for cart count */
+  padding: 3px 8px; /* Spacing around the number */
+  border-radius: 12px; /* Rounded shape for the count */
+  font-size: 14px; /* Slightly smaller font size */
+  margin-left: 5px; /* Space between Cart and the count */
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack header items on small screens */
+    text-align: center;
+  }
+
+  .navbar {
+    margin-top: 10px; /* Space between title and navbar */
+  }
+
+  .navbar a {
+    font-size: 14px; /* Smaller font size for links on mobile */
+  }
+}
